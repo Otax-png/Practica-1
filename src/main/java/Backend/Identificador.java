@@ -18,6 +18,17 @@ public enum Identificador {
         this.error = error;
     }
 
+    @Override
+    public String toString() {
+        return "Identificador{" +
+                "id='" + id + '\'' +
+                ", entero='" + entero + '\'' +
+                ", decimal='" + decimal + '\'' +
+                ", simbolo='" + simbolo + '\'' +
+                ", error='" + error + '\'' +
+                '}';
+    }
+
     public String getId() {
         return id;
     }

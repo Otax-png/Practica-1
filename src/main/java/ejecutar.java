@@ -1,5 +1,7 @@
+import Backend.program;
+
 public class ejecutar {
     public static void main(String[] args) {
-        System.out.println("a");
+        program iniciar = new program();
     }
 }
